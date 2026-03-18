@@ -1,16 +1,16 @@
 class Manzano < Formula
   desc "Manzano development server"
   homepage "https://github.com/manzano-studio"
-  version "0.1.3"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/manzano-studio/homebrew-tap/releases/download/v0.1.3/manzano-0.1.3-aarch64-apple-darwin.tar.gz"
-      sha256 "1ba5b51c98a103fde0f7955c15af967482ba9819d5e495fe9549cb00b69b8683"
+      url "https://github.com/manzano-studio/homebrew-tap/releases/download/v0.2.0/manzano-0.2.0-aarch64-apple-darwin.tar.gz"
+      sha256 "01ee98352ccb9ad551b15458c978371030007e91e1ed16f6d389d647944b8190"
     else
-      url "https://github.com/manzano-studio/homebrew-tap/releases/download/v0.1.3/manzano-0.1.3-x86_64-apple-darwin.tar.gz"
-      sha256 "13d90a53622036f285ec8e1f9e9d4200021f058858be9412e7cb296968f6b84a"
+      url "https://github.com/manzano-studio/homebrew-tap/releases/download/v0.2.0/manzano-0.2.0-x86_64-apple-darwin.tar.gz"
+      sha256 "102dfc6138a2b4f33b806a710bfce9f8bec06cc647c89368fcec2d9b3b7d0f15"
     end
   end
 
