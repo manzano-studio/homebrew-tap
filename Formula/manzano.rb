@@ -1,26 +1,26 @@
 class Manzano < Formula
   desc "Manzano development server"
   homepage "https://github.com/manzano-studio"
-  version "0.2.4"
+  version "0.2.5"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/manzano-studio/homebrew-tap/releases/download/v0.2.4/manzano-0.2.4-aarch64-apple-darwin.tar.gz"
-      sha256 "4ee004477f93d67b4e139ba764948c1a1ba3bc1113157955165b2af5137309db"
+      url "https://github.com/manzano-studio/homebrew-tap/releases/download/v0.2.5/manzano-0.2.5-aarch64-apple-darwin.tar.gz"
+      sha256 "89c653d23af0dc25ee8c023449753c560c2958c558a9f8ac8b00571fb37a7ecf"
     else
-      url "https://github.com/manzano-studio/homebrew-tap/releases/download/v0.2.4/manzano-0.2.4-x86_64-apple-darwin.tar.gz"
-      sha256 "f59abbe82585ab30c51e82ed5d67ba1b163433ccc9ecff051c685c4decd2d3c0"
+      url "https://github.com/manzano-studio/homebrew-tap/releases/download/v0.2.5/manzano-0.2.5-x86_64-apple-darwin.tar.gz"
+      sha256 "c3bc2ddad1fe1113c698d6a758b67cbc7f4d22238f9f9dfd46ff5868ab66046e"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/manzano-studio/homebrew-tap/releases/download/v0.2.4/manzano-0.2.4-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "42d59bf1e98726537cd829b463a04d59c19da8adfe73bc9f4d48a50037c21b10"
+      url "https://github.com/manzano-studio/homebrew-tap/releases/download/v0.2.5/manzano-0.2.5-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "0141b5c4290e3e718a13c5738fe2ed9afca13ec8877ab3ccdcc3929dc8c6326d"
     else
-      url "https://github.com/manzano-studio/homebrew-tap/releases/download/v0.2.4/manzano-0.2.4-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "55d7a641b9528caf387f03c6dd36497ee3ba04f59e4e6c4ebb09a3df650a8a71"
+      url "https://github.com/manzano-studio/homebrew-tap/releases/download/v0.2.5/manzano-0.2.5-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "0303b0459450c48e8a294486a1728db382c590b94efa114f780da876d75ca5b5"
     end
   end
 
