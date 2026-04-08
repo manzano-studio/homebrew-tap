@@ -1,26 +1,26 @@
 class Manzano < Formula
   desc "Manzano development server"
   homepage "https://github.com/manzano-studio"
-  version "0.3.0"
+  version "0.3.1"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/manzano-studio/homebrew-tap/releases/download/manzano-v0.3.0/manzano-0.3.0-aarch64-apple-darwin.tar.gz"
-      sha256 "74b4503e59428a262f9303fff865b3363b3a3b06acb3d330755abbd182524f3f"
+      url "https://github.com/manzano-studio/homebrew-tap/releases/download/manzano-v0.3.1/manzano-0.3.1-aarch64-apple-darwin.tar.gz"
+      sha256 "5201e6023bb63a867dee49adf7ca6efb76935fc50a3ab28909ee85da428ed3e1"
     else
-      url "https://github.com/manzano-studio/homebrew-tap/releases/download/manzano-v0.3.0/manzano-0.3.0-x86_64-apple-darwin.tar.gz"
-      sha256 "175697c7812a58efb18a7229bd0ef8cbbc48546ca24c31342801be5cb2539b2f"
+      url "https://github.com/manzano-studio/homebrew-tap/releases/download/manzano-v0.3.1/manzano-0.3.1-x86_64-apple-darwin.tar.gz"
+      sha256 "5bf03e137a5a070c2fd0b521363af02ebc8c0fe50bd942e9dca8a7266164c04c"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/manzano-studio/homebrew-tap/releases/download/manzano-v0.3.0/manzano-0.3.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "fa87b2dcdbe7f927af6ae5ebd096f0ff25068d3d003b5e6debb2dca3df2a992f"
+      url "https://github.com/manzano-studio/homebrew-tap/releases/download/manzano-v0.3.1/manzano-0.3.1-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "20bca4dc5b9a3475e729970cdded2d9c19056834e238ba27820a4055b1177507"
     else
-      url "https://github.com/manzano-studio/homebrew-tap/releases/download/manzano-v0.3.0/manzano-0.3.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "ce0d9acd5563771b8d133fd6a7692a143bcbbaf2cc1de4ba301f4b28c2ad4404"
+      url "https://github.com/manzano-studio/homebrew-tap/releases/download/manzano-v0.3.1/manzano-0.3.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "147a1ac3cbdc2773206a7696d8d841378c20ec755f3c6b3830b680672b23a0bf"
     end
   end
 
