@@ -1,26 +1,26 @@
 class Manzano < Formula
   desc "Manzano development server"
   homepage "https://github.com/manzano-studio"
-  version "0.3.2"
+  version "0.4.0"
   license :cannot_represent
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/manzano-studio/homebrew-tap/releases/download/manzano-v0.3.2/manzano-0.3.2-aarch64-apple-darwin.tar.gz"
-      sha256 "3eb502d3260372050bbb824624490128bc4ac7cf2f9f2f31aa7129e1e06ad700"
+      url "https://github.com/manzano-studio/homebrew-tap/releases/download/manzano-v0.4.0/manzano-0.4.0-aarch64-apple-darwin.tar.gz"
+      sha256 "960fbc57ee3751bed25064049b90605ef375c11424d9c2b471e98a76a9b5ae9c"
     else
-      url "https://github.com/manzano-studio/homebrew-tap/releases/download/manzano-v0.3.2/manzano-0.3.2-x86_64-apple-darwin.tar.gz"
-      sha256 "7d5dd3f8c08656cd14e8fec179eaabeb6b0a0679a17a75c8db5ee46689058d65"
+      url "https://github.com/manzano-studio/homebrew-tap/releases/download/manzano-v0.4.0/manzano-0.4.0-x86_64-apple-darwin.tar.gz"
+      sha256 "bd4053408522937c04dce35a87d0f846c6b4aca6f76843bdcd58cffb59880dbd"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/manzano-studio/homebrew-tap/releases/download/manzano-v0.3.2/manzano-0.3.2-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "66044f4f69b3683b71257ebc1ed9f8be424ab4c16d806b392000899e33d99f3b"
+      url "https://github.com/manzano-studio/homebrew-tap/releases/download/manzano-v0.4.0/manzano-0.4.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "4e45116059eca00deba71d5c45b0555a19ae1fd82ede9ad356edaca32a4b6112"
     else
-      url "https://github.com/manzano-studio/homebrew-tap/releases/download/manzano-v0.3.2/manzano-0.3.2-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "c3a1bb5e1491316a1f9d9997f90d0699c905b0d801abbf9668faa3a4f2dd1316"
+      url "https://github.com/manzano-studio/homebrew-tap/releases/download/manzano-v0.4.0/manzano-0.4.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "ce9ac82a7d3850c56df878e104d8760c1af7366ef2993ad0d6d01cb0e4006abe"
     end
   end
 
