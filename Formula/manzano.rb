@@ -1,26 +1,26 @@
 class Manzano < Formula
   desc "Manzano development server"
   homepage "https://github.com/manzano-studio"
-  version "0.4.2"
+  version "0.4.3"
   license :cannot_represent
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/manzano-studio/homebrew-tap/releases/download/manzano-v0.4.2/manzano-0.4.2-aarch64-apple-darwin.tar.gz"
-      sha256 "263c6517c2bc82a641b59fd76633edbea8a3788213ce8812d0fd8d348f53bbaa"
+      url "https://github.com/manzano-studio/homebrew-tap/releases/download/manzano-v0.4.3/manzano-0.4.3-aarch64-apple-darwin.tar.gz"
+      sha256 "39b25781d8e6750ff4c0081205860a84d6260908222f177b5a255d45ccf07581"
     else
-      url "https://github.com/manzano-studio/homebrew-tap/releases/download/manzano-v0.4.2/manzano-0.4.2-x86_64-apple-darwin.tar.gz"
-      sha256 "b513522da261888dac14c6b686f12798d4fafaae40c2d6535cafe629e01deb7e"
+      url "https://github.com/manzano-studio/homebrew-tap/releases/download/manzano-v0.4.3/manzano-0.4.3-x86_64-apple-darwin.tar.gz"
+      sha256 "d41bd8b5c34260c84274fe1ac8e5bd36044d983fb5901b4ffdb93f018a23de72"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/manzano-studio/homebrew-tap/releases/download/manzano-v0.4.2/manzano-0.4.2-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "e7d361046a304a009eca89b34effb7e8641cd5abb4cbffde520f867899a07793"
+      url "https://github.com/manzano-studio/homebrew-tap/releases/download/manzano-v0.4.3/manzano-0.4.3-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "dc85dc2604d27f8eee7aea8c77acc5e2b1787ae558d35476306290591932e585"
     else
-      url "https://github.com/manzano-studio/homebrew-tap/releases/download/manzano-v0.4.2/manzano-0.4.2-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "dbed5c69895e437ab86f38d8f05985087ee0b9d06b9f6600d550e3113b42e11c"
+      url "https://github.com/manzano-studio/homebrew-tap/releases/download/manzano-v0.4.3/manzano-0.4.3-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "9c4c04dc5708b290193360a2d70a1c48747d18005de4971c344e18517f9bca76"
     end
   end
 
