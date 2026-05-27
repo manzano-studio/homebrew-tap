@@ -1,26 +1,26 @@
 class Manzano < Formula
   desc "Manzano development server"
   homepage "https://github.com/manzano-studio"
-  version "0.4.6"
+  version "0.4.7"
   license :cannot_represent
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/manzano-studio/homebrew-tap/releases/download/manzano-v0.4.6/manzano-0.4.6-aarch64-apple-darwin.tar.gz"
-      sha256 "e564301ef937771dbbefa9e2065fa6bed7a2f831077afdf6026641994081ded8"
+      url "https://github.com/manzano-studio/homebrew-tap/releases/download/manzano-v0.4.7/manzano-0.4.7-aarch64-apple-darwin.tar.gz"
+      sha256 "0cc06a27e018237d13a460192adee48a10f5ad3d6ecec1fa2430ec239fa5c01f"
     else
-      url "https://github.com/manzano-studio/homebrew-tap/releases/download/manzano-v0.4.6/manzano-0.4.6-x86_64-apple-darwin.tar.gz"
-      sha256 "9deb8c15ec2e9fe775920416a71e342b4ce77bcc33faf7347df9f5770739de60"
+      url "https://github.com/manzano-studio/homebrew-tap/releases/download/manzano-v0.4.7/manzano-0.4.7-x86_64-apple-darwin.tar.gz"
+      sha256 "47afead81a1c343e77acf864487e8054fb03160c7e3efb8594f3cc495f13d1e3"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/manzano-studio/homebrew-tap/releases/download/manzano-v0.4.6/manzano-0.4.6-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "5d71c659bbc5a0a8f6b8e1e62f326ef7ccebb813592a3abf454c020d8cd3fe11"
+      url "https://github.com/manzano-studio/homebrew-tap/releases/download/manzano-v0.4.7/manzano-0.4.7-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "d920824924a277c9617e5998cd44deb40d480dbe53e06e93a1a15e59cd4ac365"
     else
-      url "https://github.com/manzano-studio/homebrew-tap/releases/download/manzano-v0.4.6/manzano-0.4.6-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "826c43cf50dcf4bbc1cc942834897ef5aa0c8e9ddd134fb069018fba0e9d9c81"
+      url "https://github.com/manzano-studio/homebrew-tap/releases/download/manzano-v0.4.7/manzano-0.4.7-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "6dcc4860e7858a316daef7946df35308a0e60cc0afb2dd448279b0679a255ad4"
     end
   end
 
