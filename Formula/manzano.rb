@@ -1,26 +1,26 @@
 class Manzano < Formula
   desc "Manzano development server"
   homepage "https://github.com/manzano-studio"
-  version "0.4.7"
+  version "0.4.8"
   license :cannot_represent
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/manzano-studio/homebrew-tap/releases/download/manzano-v0.4.7/manzano-0.4.7-aarch64-apple-darwin.tar.gz"
-      sha256 "0cc06a27e018237d13a460192adee48a10f5ad3d6ecec1fa2430ec239fa5c01f"
+      url "https://github.com/manzano-studio/homebrew-tap/releases/download/manzano-v0.4.8/manzano-0.4.8-aarch64-apple-darwin.tar.gz"
+      sha256 "eccaba61f63547fe5b16ec8d2e85a590bcbd625493cd465bcdc50bf4df558a01"
     else
-      url "https://github.com/manzano-studio/homebrew-tap/releases/download/manzano-v0.4.7/manzano-0.4.7-x86_64-apple-darwin.tar.gz"
-      sha256 "47afead81a1c343e77acf864487e8054fb03160c7e3efb8594f3cc495f13d1e3"
+      url "https://github.com/manzano-studio/homebrew-tap/releases/download/manzano-v0.4.8/manzano-0.4.8-x86_64-apple-darwin.tar.gz"
+      sha256 "d14f17096b9486634a5e3b5507cb0c4615751c8bb2ca2202455777bfa58e46fd"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/manzano-studio/homebrew-tap/releases/download/manzano-v0.4.7/manzano-0.4.7-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "d920824924a277c9617e5998cd44deb40d480dbe53e06e93a1a15e59cd4ac365"
+      url "https://github.com/manzano-studio/homebrew-tap/releases/download/manzano-v0.4.8/manzano-0.4.8-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "31ae6416d44d491f6e7f014d4f8b1f8041e0549a516fd5fb801d89eb52a65a21"
     else
-      url "https://github.com/manzano-studio/homebrew-tap/releases/download/manzano-v0.4.7/manzano-0.4.7-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "6dcc4860e7858a316daef7946df35308a0e60cc0afb2dd448279b0679a255ad4"
+      url "https://github.com/manzano-studio/homebrew-tap/releases/download/manzano-v0.4.8/manzano-0.4.8-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "97ab03bae01fd2555dd494f2f7e9b5c081eeac3f3d076aa894e83988eb95848a"
     end
   end
 
